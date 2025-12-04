@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Baraninathan S P - Portfolio</title>
   <link rel="stylesheet" href="protfolio.css" />
+  <link rel="stylesheet" href="script.js">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script src="https://kit.fontawesome.com/2c7fcf61eb.js" crossorigin="anonymous"></script>
   <link
@@ -20,30 +21,49 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'st';
+  src: url(font/Benguiat\ Bold.ttf);
+}
+
+@font-face {
+  font-family: 'st1';
+  src: url(font/Stranger\ Things\ Outlined.ttf);
+}
  </style>
 
 </head>
 <body>
-<header style="background-color: #111642;">
-  <div class="logo"><span style="color: #00a2ff;">Pro</span>tfolio</div>
+<header style="background-color: #28224C;">
+  <video autoplay loop muted playsinline class="bg-video">
+    <source src="20251204-0726-48.5967834.mp4" type="video/mp4">
+  </video>
+  <div class="logo" style="font-family: 'st';"><span style="color: #FF1515; font-family: 'st';">WEL</span>COME</div>
   <nav>
     <ul>
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#projects">PROJECTS</a></li>
-      <li><a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/">CONTACT</a></li>
+      <li><a href="#home" style="color: #e8dfdf;">HOME</a></li>
+      <li><a href="#projects" style="color: #f7f3f3;">PROJECTS</a></li>
+      <li><a href="https://www.figma.com/design/u1JC1nCqYx38ZcAxM3h9oq/Logo-design-protfolio?node-id=0-1&t=RCuKyxG4luSGUE61-1"style="color: #F3f3f3;">FREELANCE PROJECTS</a></li>
+      <li><a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/" style="color: #f22d2d;">CONTACT</a></li>
     </ul>
   </nav>
 </header><br>
-  <section id="home" class="hero" style="background: #111642;">
+  <section id="home" class="hero" style="background-color: #1E193C;">
+    <video autoplay loop muted playsinline id="front-video" style="mix-blend-mode: lighten;
+  background: #00ff00;">
+  <source src="1204.mp4" type="video/mp4">
+</video>
+    
     <div class="profile-container">
       <div class="glow-ring" >
-        <img src="DP2.png" alt="Profile Image" />
+        <img src="dp3.png" alt="Profile Image" />
       </div>
     </div>
     <div class="intro-text">
-      <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #38bdf8;">Hello i am</h2>
-      <h1 style="font-family: 'Times New Roman', Times, serif;">BARANINATHAN S P </h1>
-      <p>
+      <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #FF1515; font-family: 'st';">Hello i am</h2>
+      <h1 style="font-family: 'st'">BARANINATHAN S P </h1>
+      <p style="font-family: 'st';">
        I’m a freelance web developer and UI/UX designer passionate about building modern, user-friendly websites for clients. I love turning ideas into clean, functional, and visually appealing digital experiences that make an impact.
       </p>
       <div class="social-icons">
@@ -60,51 +80,67 @@ html {
   <div class="skills-grid2">
     <div class="skill2">
       <img src="icons/excel.webp" alt="Excel">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Excel</p>
     </div>
     <div class="skill2">
       <img src="icons/canva.svg" alt="Canva">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Canva</p>
     </div>
     <div class="skill2">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljqaDsIkzZQsQ01cpqsnbJ4TF75ZfXhVHQg&s" alt="Google Colab">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Google Colab</p>
     </div>
     <div class="skill2">
       <img src="icons/Ai.png" alt="AI">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Adobe Illustrator</p>
     </div>
     <div class="skill2">
       <img src="icons/grafana.jpg" alt="Grafana">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Grafana</p>
     </div>
     <div class="skill2">
-      <img src="icons/GitHub-Logo.png" alt="Github">
+      <img src="https://p1.hiclipart.com/preview/354/761/130/visual-studio-code-icon-redesign-for-macos-vscode-blue-and-white-logo-png-clipart.jpg" alt="vs code">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">VS Code</p>
     </div>
-  </div>
+  </div><br><br>
 </section>
-<section class="skills-section" style="background-color: #0d1150;">
+<section class="skills-section" style="background-color: #28224C;">
   <h2>TECH SKILLS</h2>
   <div class="skills-grid">
     <div class="skill">
-      <img src="https://codekaisen.com/wp-content/uploads/2023/11/snakes_423066.png" alt="Python">
+      <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25085005/reactjs-inner.svg" alt="React">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">React JS</p>
     </div>
     <div class="skill">
       <img src="https://pngimg.com/d/mysql_PNG9.png" alt="MySQL">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">SQL</p>
     </div>
     <div class="skill">
       <img src="icons/html.webp" alt="HTML">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">HTML</p>
     </div>
     <div class="skill">
       <img src="icons/css.webp" alt="CSS">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">CSS</p>
     </div>
     <div class="skill">
       <img src="icons/js.png" alt="JS">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Java Script</p>
     </div>
     <div class="skill">
       <img src="icons/uiux.png" alt="UIUX">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">UI/UX Design</p>
+    </div>
+    <div class="skill">
+      <img src="icons/GitHub-Logo.png" alt="Github">
+      <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Github</p>
     </div>
   </div>
 </section>
 
 
 <section id="projects" class="projects-section">
-  <h2>MY PROJECTS</h2>
+  <h2 style="font-family: 'st1'; color: #FF1515;letter-spacing: 4px;">MY PROJECTS</h2>
   
 
   <div class="project-row">
@@ -112,9 +148,9 @@ html {
     <div class="project-box">
       <img src="project img/Screenshot 2025-06-17 220541.png" alt="Weather System">
       <div class="project-content">
-        <h3>WEATHER INTELLIGENCE FORECASTING</h3>
+        <h3 style="font-family: 'st';">WEATHER INTELLIGENCE FORECASTING</h3>
         <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/details/projects/" target="_blank" class="read-btn">Read more</a>
-        <p class="desc">
+        <p class="desc" style="font-family: '';">
           I built a real-time weather monitoring and forecasting system using ESP8266, DHT11, rain, and wind sensors. The data is stored in a MySQL database via a PHP server, and visualized using Grafana. The system also analyzes historical data for accurate weather predictions.
         </p>
       </div>
@@ -124,9 +160,9 @@ html {
     <div class="project-box">
       <img src="project img/AI based.png" alt="OpenCV Detection" style="width: 500px; height: 280px;">
       <div class="project-content">
-        <h3>AI-Based Disease Detection System</h3>
+        <h3 style="font-family: 'st';">AI-Based Disease Detection System</h3>
         <a href="hhttps://www.linkedin.com/in/baraninathan-s-p-030543313/details/projects/" target="_blank" class="read-btn">Read more</a>
-        <p class="desc">
+        <p class="desc" style="font-family: '';">
 Developed an AI-powered disease detection system capable of identifying skin diseases, brain tumors, and lung cancer from medical images using machine learning and computer vision. The project utilized a Raspberry Pi 4 and webcam for real-time image processing and analysis.        </p>
       </div>
     </div>
@@ -137,9 +173,9 @@ Developed an AI-powered disease detection system capable of identifying skin dis
     <div class="project-box">
       <img src="project img/Screenshot 2025-06-17 213759.png" alt="Agri Smart">
       <div class="project-content">
-        <h3>Real-Time Vehicle Info Lookup</h3>
+        <h3 style="font-family: 'st';">Real-Time Vehicle Info Lookup</h3>
         <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/details/projects/" target="_blank" class="read-btn">Read more</a>
-        <p class="desc">
+        <p class="desc" style="font-family: '';">
          I built a responsive web app to search vehicle details by registration number with real-time validation and smooth animations. It features an interactive UI with SVG-based vehicle selection (bike/car), conditional redirection, and future support for webcam integration and printable/downloadable reports.
         </p>
       </div>
@@ -148,9 +184,9 @@ Developed an AI-powered disease detection system capable of identifying skin dis
     <div class="project-box">
       <img src="project img/human.png" alt="OpenCV Detection" style="width: 500px; height: 280px;">
       <div class="project-content">
-        <h3>Human Detection Using OpenCV and Raspberry Pi</h3>
+        <h3 style="font-family: 'st';">Human Detection Using OpenCV and Raspberry Pi</h3>
         <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/details/projects/" target="_blank" class="read-btn">Read more</a>
-        <p class="desc">
+        <p class="desc" style="font-family: '';">
           This project implements real-time human detection using Raspberry Pi and OpenCV. A webcam captures video, and a pre-trained model detects humans in the frame, drawing bounding boxes around them. It is a low-cost, efficient solution for basic surveillance and monitoring applications.
         </p>
       </div>
@@ -165,7 +201,7 @@ Developed an AI-powered disease detection system capable of identifying skin dis
 
 <style>
 .projects-section {
-  background: #0e1241;
+  background: #1E193C;
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -180,7 +216,7 @@ Developed an AI-powered disease detection system capable of identifying skin dis
 }
 
 .project-box {
-  background: #111642;
+  background: #1E193C;
   border-radius: 20px;
   overflow: hidden;
   max-width: 500px;
@@ -256,7 +292,7 @@ Developed an AI-powered disease detection system capable of identifying skin dis
 </script>
 
   <section class="certificates-section">
-    <h2>CERTIFICATES</h2>
+    <h2 style="font-family: 'st1'; color: #FF1515; letter-spacing: 4px;">CERTIFICATES</h2>
 
     <div class="carousel-container">
       <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#8249;</button>
@@ -294,14 +330,14 @@ Developed an AI-powered disease detection system capable of identifying skin dis
   </section>
 
   <section class="internship-section">
-  <h2>INTERNSHIP</h2>
+  <h2 style="font-family: 'st1'; letter-spacing: 4px;">INTERNSHIP</h2>
   <div class="internship-certificate">
     <img src="catificate/internship.png" alt="Internship Certificate">
   </div>
 </section>
 
 <section class="awards-section">
-  <h2>AWARDS</h2>
+  <h2 style="font-family: 'st'; color: #FF1515;">AWARDS</h2>
 
   <div class="awards-grid">
     <div class="award-card">
@@ -319,17 +355,16 @@ Developed an AI-powered disease detection system capable of identifying skin dis
   </div>
 </section>
 
-<footer class="footer" style="background-color: #030558;">
+<footer class="footer" style="background-color: #1E193C;">
   <div class="footer-nav">
-    <a href="#home"><i class="fas fa-home"></i> Home</a>
-    <a href="#home"><i class="fas fa-user"></i> About me</a>
-    <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/"><i class="fas fa-phone"></i> Contact</a>
+    <a href="#home"><i class="fas fa-home" style="color: #f22d2d;"></i> Home</a>
+    <a href="#home"><i class="fas fa-user" style="color: #f22d2d;"></i> About me</a>
+    <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/"><i class="fas fa-phone" style="color: #f22d2d;"></i> Contact</a>
   </div>
 
   <div class="footer-socials">
-    <a href="https://www.instagram.com/mr_lokesh_offcl?igsh=MWM2MHlrbGg5am1tag==" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.linkedin.com/in/baraninathan-s-p-030543313/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <a href="mailto:barani@example.com"><i class="fas fa-envelope"></i></a>
+    <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Copyright © 2025 - BARANINATHAN SP </p>
+
   </div>
 </footer>
 
